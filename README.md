@@ -1,4 +1,4 @@
-# SkyView Weather 🌤️
+# SkyView Weather 
 
 A React Native weather application built with Expo Router and SDK 54. Get current weather conditions and 5-day forecasts for any city, with dark mode support and favorite city management.
 
@@ -9,13 +9,13 @@ A React Native weather application built with Expo Router and SDK 54. Get curren
 
 ## Features
 
-✨ **Core Functionality**
-- 🌍 **Current Weather** — Real-time temperature, conditions, humidity, wind speed
-- 📅 **5-Day Forecast** — Hourly/daily weather predictions
-- 🔍 **City Search** — Instantly search and view weather for any city
-- ❤️ **Favorites** — Save your favorite cities (persisted with AsyncStorage)
-- 🌙 **Dark Mode** — Toggle between light and dark themes
-- 🌡️ **Unit Toggle** — Switch between Celsius and Fahrenheit
+ **Core Functionality**
+-  **Current Weather** — Real-time temperature, conditions, humidity, wind speed
+-  **5-Day Forecast** — Hourly/daily weather predictions
+-  **City Search** — Instantly search and view weather for any city
+-  **Favorites** — Save your favorite cities (persisted with AsyncStorage)
+-  **Dark Mode** — Toggle between light and dark themes
+-  **Unit Toggle** — Switch between Celsius and Fahrenheit
 
 **Technical Highlights**
 - Bottom tab navigation (4 screens: Home, Search, Favorites, Settings)
@@ -82,7 +82,7 @@ WeatherApp/
 
 ### Step 1: Clone and Install
 ```bash
-git clone https://github.com/YourUsername/SkyView-ExpoRouter-SDK54.git
+git clone https://github.com/Xushuz/WeatherApp
 cd WeatherApp
 npm install
 ```
@@ -153,23 +153,6 @@ Weather data from [OpenWeatherMap API](https://openweathermap.org/api):
 - Dark mode toggle (affects all screens instantly)
 - Temperature unit toggle (°C ↔ °F)
 - App info and version
-
----
-
-## Assessment Alignment
-
-This project demonstrates mastery across all marking criteria:
-
-| Criterion | Implementation |
-|-----------|-----------------|
-| **UI/UX Design (20%)** | Polished card-based layout, dark mode support, consistent color scheme, intuitive navigation |
-| **Navigation (15%)** | Expo Router file-based routing, bottom tab navigator, screen transitions via `useRouter` |
-| **State Management (15%)** | React Context API with Provider pattern, global state for favorites/settings/lastCity |
-| **Persistence (15%)** | AsyncStorage integration, load on mount, save on changes, fallback defaults |
-| **Functionality (15%)** | All 4 screens functional, API integration working, error handling, loading states |
-| **Code Quality (10%)** | Clean component separation, reusable components, documented structure, proper error handling |
-| **Testing & Debugging (5%)** | Manual testing with multiple cities, error state verification, dark mode testing |
-| **README & Reflection (5%)** | This README + user testing report |
 
 ---
 
@@ -244,6 +227,5 @@ This project is created as coursework for UFCF7H-15-3 (Mobile Applications).
 
 ## Author
 
-**Shai**
-CS Student | Mobile Applications (Resit)
-April 2026
+**Ali Shaikhaan Fazeen**
+06 April 2026
