@@ -87,9 +87,12 @@ cd WeatherApp
 npm install
 ```
 
-### Step 2: Start the Dev Server
+### Step 2: Install and start Server
 ```bash
-npx expo start --tunnel --clear
+npm install -D react-refresh
+npm install --legacy-peer-deps
+npx expo install --fix
+npx expo start --clear
 ```
 
 - `--tunnel` allows scanning QR code even if phone is on different network
